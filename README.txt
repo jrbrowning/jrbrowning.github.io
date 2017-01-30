@@ -1,0 +1,5 @@
+This repo is the home directory for my personal projects
+
+It will be composed of HTML5, CSS3, and ES5/6 javascript.   
+
+Eventually it will become the homepage for my web business (craftcoded).   But I need to make it look cool first.   Let's begin...
