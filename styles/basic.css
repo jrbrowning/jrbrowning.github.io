@@ -1,0 +1,16 @@
+body {
+  font-size: 100%;
+  font-family: Open Sans;
+  background-color: #253d55;
+}
+
+.site-title {
+    font-size: 1.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-decoration: none;
+    color: #fff;
+ }
