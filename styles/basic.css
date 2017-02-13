@@ -1,16 +1,19 @@
 body {
   font-size: 100%;
   font-family: Open Sans;
-  background-color: #489E64;
+  background: url("../images/CraftCoded-desktop.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.site-title {
-    font-size: 1.1em;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-style: normal;
-    letter-spacing: 2px;
-    line-height: 1em;
-    text-decoration: none;
-    color: #fff;
- }
+H1 {
+  font-size: 3em;
+  text-align: center;
+  color: #A4CEFF;
+}
+
+img{
+  max-width: 100%;
+}
