@@ -24,30 +24,37 @@ body, html {
   height: 7.5%; }
 
 .first-letter-1 {
+  fill: #0F94b7;
   position: absolute;
   animation: movehome-1 1.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-2 {
+  fill: #0F94b7;
   position: absolute;
   animation: movehome-2 1.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-3 {
+  fill: #0F94b7;
   position: absolute;
   animation: movehome-3 1.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-4 {
+  fill: #0F94b7;
   position: absolute;
   animation: movehome-4 1.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-5 {
+  fill: #0F94b7;
   position: absolute;
   animation: movehome-5 1.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-6 {
+  fill: #0F94b7;
   position: absolute;
   animation: movehome-6 1.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-7 {
+  fill: #0F94b7;
   position: absolute;
   animation: movehome-7 1.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 

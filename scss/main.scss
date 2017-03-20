@@ -29,6 +29,7 @@ body, html {
 }
 
 @mixin anim-home($comp) {
+	fill: #0F94b7;
 	position: absolute;  
 	animation:  $comp 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards;
 }
