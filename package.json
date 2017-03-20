@@ -1,0 +1,23 @@
+{
+  "name": "craftcoded",
+  "version": "1.0.0",
+  "description": "CraftCoded home page.  A collection of web projects.  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "./bin/build-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrbrowning/jrbrowning.github.io.git"
+  },
+  "author": "jrbrowning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrbrowning/jrbrowning.github.io/issues"
+  },
+  "homepage": "http://www.craftcoded.com/index.html",
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
+}

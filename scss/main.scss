@@ -1,0 +1,257 @@
+body {
+  font-size: 100%;
+  font-family: Open Sans; 
+  background-color: #6494B7;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.positioning {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background:  #374550;
+}
+
+.icon {
+  fill: #6494B7; 
+  width: 7.5%;
+  height: 7.5%;
+}
+
+@mixin anim-home($comp) {
+	position: absolute;  
+	animation:  $comp 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards;
+}
+
+//@mixin anim-path($coor) {
+//	@keyframes movehome-#{$coor} {  0%   { left: 0; top: 100%;}     100% { left: 7.5%; top: 15%;}}
+//}
+
+@for $var from 1 through 7 {
+	.first-letter-#{$var} {@include anim-home(movehome-#{$var});}
+//	@keyframes movehome-#{$var} {  0%   { left: 0; top: 100%;}     100% { left: 7.5%; top: 15%;}}
+}
+
+/* First letter animation 
+.first-letter-1 {@include anim-home(movehome-1);}
+.first-letter-2 {@include anim-home(movehome-2);}
+.first-letter-3 {@include anim-home(movehome-3);}
+.first-letter-4 {@include anim-home(movehome-4);}
+.first-letter-5 {@include anim-home(movehome-5);}
+.first-letter-6 {@include anim-home(movehome-6);}
+.first-letter-7 {@include anim-home(movehome-7);}
+*/
+
+@keyframes movehome-1 {  0%   { left: 0; top: 100%;}     100% { left: 7.5%; top: 15%;}}
+@keyframes movehome-2 {  0%   { left: 100%; top: 100%;}  100% { left: 12.5%; top: 15%;}}
+@keyframes movehome-3 {  0%   { left: 100%; top: 0;}     100% { left: 7.5%; top: 20%;}}
+@keyframes movehome-4 {  0%   { left: 100%; top: 100%;}  100% { left: 7.5%; top: 25%;}}
+@keyframes movehome-5 {  0%   { left: 0; top: 0;}        100% { left: 7.5%; top: 30%;}}
+@keyframes movehome-6 {  0%   { left: 100%; top: 0;}     100% { left: 7.5%; top: 35%;}}
+@keyframes movehome-7 {  0%   { left: 100%; top: 0;}     100% { left: 12.5%; top: 35%;}}
+
+
+/* Second letter animation */
+.second-letter-1 {  position: absolute;  animation:  movehome-21 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-2 {  position: absolute;  animation:  movehome-22 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-3 {  position: absolute;  animation:  movehome-23 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-4 {  position: absolute;  animation:  movehome-24 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-5 {  position: absolute;  animation:  movehome-25 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-6 {  position: absolute;  animation:  movehome-26 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-7 {  position: absolute;  animation:  movehome-27 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-8 {  position: absolute;  animation:  movehome-28 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-9 {  position: absolute;  animation:  movehome-29 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.second-letter-10 {  position: absolute; animation:  movehome-210 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+/*  animation: movehome 2s linear 1 forwards; */
+
+
+@keyframes movehome-21   {  0%   { left: 0; top: 100%;}     100% { left: 22.5%;  top: 15%;}}
+@keyframes movehome-22   {  0%   { left: 100%; top: 100%;}  100% { left: 27.5%; top: 15%;}}
+@keyframes movehome-23   {  0%   { left: 100%; top: 0;}     100% { left: 22.5%;  top: 20%;}}
+@keyframes movehome-24   {  0%   { left: 100%; top: 100%;}  100% { left: 32.5%; top: 20%;}}
+@keyframes movehome-25   {  0%   { left: 0; top: 0;}        100% { left: 22.5%;  top: 25%;}}
+@keyframes movehome-26   {  0%   { left: 0; top: 100%;}     100% { left: 27.5%; top: 25%;}}
+@keyframes movehome-27   {  0%   { left: 100%; top: 0;}     100% { left: 22.5%;  top: 30%;}}
+@keyframes movehome-28   {  0%   { left: 100%; top: 0;}     100% { left: 32.5%; top: 30%;}}
+@keyframes movehome-29   {  0%   { left: 100%; top: 0;}     100% { left: 22.5%;  top: 35%;}}
+@keyframes movehome-210  {  0%   { left: 100%; top: 0;}     100% { left: 32.5%; top: 35%;}}
+
+
+/* Third letter animation */
+.third-letter-1 {  position: absolute;  animation:  movehome-31 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-2 {  position: absolute;  animation:  movehome-32 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-3 {  position: absolute;  animation:  movehome-33 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-4 {  position: absolute;  animation:  movehome-34 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-5 {  position: absolute;  animation:  movehome-35 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-6 {  position: absolute;  animation:  movehome-36 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-7 {  position: absolute;  animation:  movehome-37 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-8 {  position: absolute;  animation:  movehome-38 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-9 {  position: absolute;  animation:  movehome-39 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.third-letter-10 {  position: absolute;  animation:  movehome-310 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+@keyframes movehome-31   {  0%   { left: 0; top: 100%;}     100% { left: 47.5%; top: 15%;}}
+@keyframes movehome-32   {  0%   { left: 100%; top: 100%;}  100% { left: 42.5%; top: 20%;}}
+@keyframes movehome-33   {  0%   { left: 100%; top: 0;}     100% { left: 52.5%; top: 20%;}}
+@keyframes movehome-34   {  0%   { left: 100%; top: 100%;}  100% { left: 42.5%; top: 25%;}}
+@keyframes movehome-35   {  0%   { left: 0; top: 0;}        100% { left: 47.5%; top: 25%;}}
+@keyframes movehome-36   {  0%   { left: 0; top: 100%;}     100% { left: 52.5%; top: 25%;}}
+@keyframes movehome-37   {  0%   { left: 100%; top: 0;}     100% { left: 42.5%; top: 30%;}}
+@keyframes movehome-38   {  0%   { left: 100%; top: 0;}     100% { left: 52.5%; top: 30%;}}
+@keyframes movehome-39   {  0%   { left: 100%; top: 0;}     100% { left: 42.5%; top: 35%;}}
+@keyframes movehome-310  {  0%   { left: 100%; top: 0;}     100% { left: 52.5%; top: 35%;}}
+
+
+/* Forth letter animation */
+.forth-letter-1 {  position: absolute;  animation:  movehome-41 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.forth-letter-2 {  position: absolute; animation:  movehome-42 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.forth-letter-3 {  position: absolute; animation:  movehome-43 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.forth-letter-4 {  position: absolute; animation:  movehome-44 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.forth-letter-5 {  position: absolute; animation:  movehome-45 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.forth-letter-6 {  position: absolute; animation:  movehome-46 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.forth-letter-7 {  position: absolute; animation:  movehome-47 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+@keyframes movehome-41 {  0%   { left: 0; top: 100%;}     100% { left: 62.5%; top: 15%;}}
+@keyframes movehome-42 {  0%   { left: 100%; top: 100%;}  100% { left: 67.5%; top: 15%;}}
+@keyframes movehome-43 {  0%   { left: 100%; top: 0;}     100% { left: 62.5%; top: 20%;}}
+@keyframes movehome-44 {  0%   { left: 100%; top: 100%;}  100% { left: 62.5%; top: 25%;}}
+@keyframes movehome-45 {  0%   { left: 0; top: 0;}        100% { left: 67.5%; top: 25%;}}
+@keyframes movehome-46 {  0%   { left: 100%; top: 0;}     100% { left: 62.5%; top: 30%;}}
+@keyframes movehome-47 {  0%   { left: 100%; top: 0;}     100% { left: 62.5%; top: 35%;}}
+
+/* Fifth letter animation */
+.fifth-letter-1 { position: absolute;  animation:  movehome-51 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.fifth-letter-2 {  position: absolute; animation:  movehome-52 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.fifth-letter-3 {  position: absolute; animation:  movehome-53 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.fifth-letter-4 {  position: absolute; animation:  movehome-54 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.fifth-letter-5 {  position: absolute; animation:  movehome-55 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.fifth-letter-6 {  position: absolute; animation:  movehome-56 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.fifth-letter-7 {  position: absolute; animation:  movehome-57 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+@keyframes movehome-51 {  0%   { left: 0; top: 100%;}     100% { left: 77.5%; top: 15%;}}
+@keyframes movehome-52 {  0%   { left: 100%; top: 100%;}  100% { left: 82.5%; top: 15%;}}
+@keyframes movehome-53 {  0%   { left: 100%; top: 0;}     100% { left: 87.5%; top: 15%;}}
+@keyframes movehome-54 {  0%   { left: 100%; top: 100%;}  100% { left: 82.5%; top: 20%;}}
+@keyframes movehome-55 {  0%   { left: 0; top: 0;}        100% { left: 82.5%; top: 25%;}}
+@keyframes movehome-56 {  0%   { left: 100%; top: 0;}     100% { left: 82.5%; top: 30%;}}
+@keyframes movehome-57 {  0%   { left: 100%; top: 0;}     100% { left: 82.5%; top: 35%;}}
+
+/* sixth letter animation */
+.sixth-letter-1 { position: absolute;  animation:  movehome-61 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.sixth-letter-2 {  position: absolute; animation:  movehome-62 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.sixth-letter-3 {  position: absolute; animation:  movehome-63 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.sixth-letter-4 {  position: absolute; animation:  movehome-64 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.sixth-letter-5 {  position: absolute; animation:  movehome-65 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.sixth-letter-6 {  position: absolute; animation:  movehome-66 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.sixth-letter-7 {  position: absolute; animation:  movehome-67 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+@keyframes movehome-61 {  0%   { left: 0; top: 100%;}     100% { left: 7.5%; top: 55%;}}
+@keyframes movehome-62 {  0%   { left: 100%; top: 100%;}  100% { left: 12.5%; top: 55%;}}
+@keyframes movehome-63 {  0%   { left: 100%; top: 0;}     100% { left: 7.5%; top: 60%;}}
+@keyframes movehome-64 {  0%   { left: 100%; top: 100%;}  100% { left: 7.5%; top: 65%;}}
+@keyframes movehome-65 {  0%   { left: 0; top: 0;}        100% { left: 7.5%; top: 70%;}}
+@keyframes movehome-66 {  0%   { left: 100%; top: 0;}     100% { left: 7.5%; top: 75%;}}
+@keyframes movehome-67 {  0%   { left: 100%; top: 0;}     100% { left: 12.5%; top: 75%;}}
+
+
+/* seventh letter animation */
+.seventh-letter-1 {  position: absolute;  animation:  movehome-71 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.seventh-letter-2 {  position: absolute;  animation:  movehome-72 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.seventh-letter-3 {  position: absolute;  animation:  movehome-73 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.seventh-letter-4 {  position: absolute;  animation:  movehome-74 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.seventh-letter-5 {  position: absolute;  animation:  movehome-75 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.seventh-letter-6 {  position: absolute;  animation:  movehome-76 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.seventh-letter-7 {  position: absolute;  animation:  movehome-77 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.seventh-letter-8 {  position: absolute;  animation:  movehome-78 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+/*  animation: movehome 2s linear 1 forwards; */
+
+@keyframes movehome-71   {  0%   { left: 0; top: 100%;}     100% { left: 27.5%;  top: 55%;}}
+@keyframes movehome-72   {  0%   { left: 100%; top: 100%;}  100% { left: 22.5%;  top: 60%;}}
+@keyframes movehome-73   {  0%   { left: 100%; top: 0;}     100% { left: 32.5%;  top: 60%;}}
+@keyframes movehome-74   {  0%   { left: 100%; top: 100%;}  100% { left: 22.5%;  top: 65%;}}
+@keyframes movehome-75   {  0%   { left: 0; top: 0;}        100% { left: 32.5%;  top: 65%;}}
+@keyframes movehome-76   {  0%   { left: 0; top: 100%;}     100% { left: 22.5%;  top: 70%;}}
+@keyframes movehome-77   {  0%   { left: 100%; top: 0;}     100% { left: 32.5%;  top: 70%;}}
+@keyframes movehome-78   {  0%   { left: 100%; top: 0;}     100% { left: 27.5%;  top: 75%;}}
+
+
+/* eighth letter animation */
+.eighth-letter-1 {  position: absolute;  animation:  movehome-81 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-2 {  position: absolute;  animation:  movehome-82 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-3 {  position: absolute;  animation:  movehome-83 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-4 {  position: absolute;  animation:  movehome-84 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-5 {  position: absolute;  animation:  movehome-85 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-6 {  position: absolute;  animation:  movehome-86 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-7 {  position: absolute;  animation:  movehome-87 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-8 {  position: absolute;  animation:  movehome-88 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-9 {  position: absolute;  animation:  movehome-89 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.eighth-letter-10 {  position: absolute;  animation:  movehome-810 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+@keyframes movehome-81   {  0%   { left: 0; top: 100%;}     100% { left: 42.5%; top: 55%;}}
+@keyframes movehome-82   {  0%   { left: 100%; top: 100%;}  100% { left: 47.5%; top: 55%;}}
+@keyframes movehome-83   {  0%   { left: 100%; top: 0;}     100% { left: 42.5%; top: 60%;}}
+@keyframes movehome-84   {  0%   { left: 100%; top: 100%;}  100% { left: 52.5%; top: 60%;}}
+@keyframes movehome-85   {  0%   { left: 0; top: 0;}        100% { left: 42.5%; top: 65%;}}
+@keyframes movehome-86   {  0%   { left: 0; top: 100%;}     100% { left: 52.5%; top: 65%;}}
+@keyframes movehome-87   {  0%   { left: 100%; top: 0;}     100% { left: 42.5%; top: 70%;}}
+@keyframes movehome-88   {  0%   { left: 100%; top: 0;}     100% { left: 52.5%; top: 70%;}}
+@keyframes movehome-89   {  0%   { left: 100%; top: 0;}     100% { left: 42.5%; top: 75%;}}
+@keyframes movehome-810  {  0%   { left: 100%; top: 0;}     100% { left: 47.5%; top: 75%;}}
+
+
+/* ninth letter animation */
+.ninth-letter-1 {  position: absolute; animation:  movehome-91 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.ninth-letter-2 {  position: absolute; animation:  movehome-92 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.ninth-letter-3 {  position: absolute; animation:  movehome-93 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.ninth-letter-4 {  position: absolute; animation:  movehome-94 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.ninth-letter-5 {  position: absolute; animation:  movehome-95 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.ninth-letter-6 {  position: absolute; animation:  movehome-96 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.ninth-letter-7 {  position: absolute; animation:  movehome-97 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.ninth-letter-8 {  position: absolute; animation:  movehome-98 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+
+@keyframes movehome-91 {  0%   { left: 0; top: 100%;}     100% { left: 62.5%; top: 55%;}}
+@keyframes movehome-92 {  0%   { left: 100%; top: 100%;}  100% { left: 67.5%; top: 55%;}}
+@keyframes movehome-93 {  0%   { left: 100%; top: 0;}     100% { left: 62.5%; top: 60%;}}
+@keyframes movehome-94 {  0%   { left: 100%; top: 100%;}  100% { left: 62.5%; top: 65%;}}
+@keyframes movehome-95 {  0%   { left: 0; top: 0;}        100% { left: 67.5%; top: 65%;}}
+@keyframes movehome-96 {  0%   { left: 100%; top: 0;}     100% { left: 62.5%; top: 70%;}}
+@keyframes movehome-97 {  0%   { left: 100%; top: 0;}     100% { left: 62.5%; top: 75%;}}
+@keyframes movehome-98 {  0%   { left: 100%; top: 0;}     100% { left: 67.5%; top: 75%;}}
+
+
+/* tenth letter animation */
+.tenth-letter-1 { position: absolute;  animation:  movehome-101 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-2 {  position: absolute; animation:  movehome-102 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-3 {  position: absolute; animation:  movehome-103 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-4 {  position: absolute; animation:  movehome-104 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-5 {  position: absolute; animation:  movehome-105 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-6 {  position: absolute; animation:  movehome-106 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-7 {  position: absolute; animation:  movehome-107 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-8 {  position: absolute; animation:  movehome-108 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-9 {  position: absolute; animation:  movehome-109 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+.tenth-letter-10 { position: absolute; animation:  movehome-1010 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards; }
+
+
+@keyframes movehome-101 {  0%   { left: 0; top: 100%;}     100% { left: 77.5%; top: 55%;}}
+@keyframes movehome-102 {  0%   { left: 100%; top: 100%;}  100% { left: 82.5%; top: 55%;}}
+@keyframes movehome-103 {  0%   { left: 100%; top: 0;}     100% { left: 77.5%; top: 60%;}}
+@keyframes movehome-104 {  0%   { left: 100%; top: 100%;}  100% { left: 87.5%; top: 60%;}}
+@keyframes movehome-105 {  0%   { left: 0; top: 0;}        100% { left: 77.5%; top: 65%;}}
+@keyframes movehome-106 {  0%   { left: 100%; top: 0;}     100% { left: 87.5%; top: 65%;}}
+@keyframes movehome-107 {  0%   { left: 100%; top: 0;}     100% { left: 77.5%; top: 70%;}}
+@keyframes movehome-108 {  0%   { left: 0; top: 0;}        100% { left: 87.5%; top: 70%;}}
+@keyframes movehome-109 {  0%   { left: 100%; top: 0;}     100% { left: 77.5%; top: 75%;}}
+@keyframes movehome-1010 { 0%   { left: 100%; top: 0;}     100% { left: 82.5%; top: 75%;}}
+
