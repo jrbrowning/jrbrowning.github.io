@@ -32,8 +32,9 @@ body, html {
 @mixin anim-home($comp) {
 	fill: #0F94b7;
 	position: absolute;  
+    animation:  $comp 2.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards;
  //   animation:  $comp 1.5s cubic-bezier(0.1,0.25,0.1,1) 0s 1 forwards;
-    animation: $comp 10s linear 1 forwards; 
+ //   animation: $comp 10s linear 1 forwards; 
 }
 
 ////////////*  first C letter */////////////////////////////

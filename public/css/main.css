@@ -26,37 +26,37 @@ body, html {
 .first-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-1 10s linear 1 forwards; }
+  animation: movehome-1 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-2 10s linear 1 forwards; }
+  animation: movehome-2 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-3 10s linear 1 forwards; }
+  animation: movehome-3 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-4 10s linear 1 forwards; }
+  animation: movehome-4 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-5 10s linear 1 forwards; }
+  animation: movehome-5 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-6 10s linear 1 forwards; }
+  animation: movehome-6 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .first-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-7 10s linear 1 forwards; }
+  animation: movehome-7 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-1 {
   0% {
@@ -117,52 +117,52 @@ body, html {
 .second-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-21 10s linear 1 forwards; }
+  animation: movehome-21 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-22 10s linear 1 forwards; }
+  animation: movehome-22 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-23 10s linear 1 forwards; }
+  animation: movehome-23 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-24 10s linear 1 forwards; }
+  animation: movehome-24 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-25 10s linear 1 forwards; }
+  animation: movehome-25 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-26 10s linear 1 forwards; }
+  animation: movehome-26 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-27 10s linear 1 forwards; }
+  animation: movehome-27 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-8 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-28 10s linear 1 forwards; }
+  animation: movehome-28 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-9 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-29 10s linear 1 forwards; }
+  animation: movehome-29 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .second-letter-10 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-210 10s linear 1 forwards; }
+  animation: movehome-210 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-21 {
   0% {
@@ -247,52 +247,52 @@ body, html {
 .third-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-31 10s linear 1 forwards; }
+  animation: movehome-31 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-32 10s linear 1 forwards; }
+  animation: movehome-32 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-33 10s linear 1 forwards; }
+  animation: movehome-33 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-34 10s linear 1 forwards; }
+  animation: movehome-34 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-35 10s linear 1 forwards; }
+  animation: movehome-35 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-36 10s linear 1 forwards; }
+  animation: movehome-36 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-37 10s linear 1 forwards; }
+  animation: movehome-37 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-8 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-38 10s linear 1 forwards; }
+  animation: movehome-38 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-9 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-39 10s linear 1 forwards; }
+  animation: movehome-39 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .third-letter-10 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-310 10s linear 1 forwards; }
+  animation: movehome-310 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-31 {
   0% {
@@ -377,37 +377,37 @@ body, html {
 .forth-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-41 10s linear 1 forwards; }
+  animation: movehome-41 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .forth-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-42 10s linear 1 forwards; }
+  animation: movehome-42 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .forth-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-43 10s linear 1 forwards; }
+  animation: movehome-43 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .forth-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-44 10s linear 1 forwards; }
+  animation: movehome-44 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .forth-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-45 10s linear 1 forwards; }
+  animation: movehome-45 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .forth-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-46 10s linear 1 forwards; }
+  animation: movehome-46 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .forth-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-47 10s linear 1 forwards; }
+  animation: movehome-47 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-41 {
   0% {
@@ -468,37 +468,37 @@ body, html {
 .fifth-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-51 10s linear 1 forwards; }
+  animation: movehome-51 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .fifth-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-52 10s linear 1 forwards; }
+  animation: movehome-52 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .fifth-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-53 10s linear 1 forwards; }
+  animation: movehome-53 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .fifth-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-54 10s linear 1 forwards; }
+  animation: movehome-54 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .fifth-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-55 10s linear 1 forwards; }
+  animation: movehome-55 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .fifth-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-56 10s linear 1 forwards; }
+  animation: movehome-56 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .fifth-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-57 10s linear 1 forwards; }
+  animation: movehome-57 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-51 {
   0% {
@@ -559,37 +559,37 @@ body, html {
 .sixth-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-61 10s linear 1 forwards; }
+  animation: movehome-61 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .sixth-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-62 10s linear 1 forwards; }
+  animation: movehome-62 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .sixth-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-63 10s linear 1 forwards; }
+  animation: movehome-63 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .sixth-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-64 10s linear 1 forwards; }
+  animation: movehome-64 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .sixth-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-65 10s linear 1 forwards; }
+  animation: movehome-65 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .sixth-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-66 10s linear 1 forwards; }
+  animation: movehome-66 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .sixth-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-67 10s linear 1 forwards; }
+  animation: movehome-67 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-61 {
   0% {
@@ -650,42 +650,42 @@ body, html {
 .seventh-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-71 10s linear 1 forwards; }
+  animation: movehome-71 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .seventh-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-72 10s linear 1 forwards; }
+  animation: movehome-72 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .seventh-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-73 10s linear 1 forwards; }
+  animation: movehome-73 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .seventh-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-74 10s linear 1 forwards; }
+  animation: movehome-74 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .seventh-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-75 10s linear 1 forwards; }
+  animation: movehome-75 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .seventh-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-76 10s linear 1 forwards; }
+  animation: movehome-76 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .seventh-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-77 10s linear 1 forwards; }
+  animation: movehome-77 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .seventh-letter-8 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-78 10s linear 1 forwards; }
+  animation: movehome-78 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-71 {
   0% {
@@ -754,52 +754,52 @@ body, html {
 .eighth-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-81 10s linear 1 forwards; }
+  animation: movehome-81 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-82 10s linear 1 forwards; }
+  animation: movehome-82 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-83 10s linear 1 forwards; }
+  animation: movehome-83 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-84 10s linear 1 forwards; }
+  animation: movehome-84 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-85 10s linear 1 forwards; }
+  animation: movehome-85 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-86 10s linear 1 forwards; }
+  animation: movehome-86 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-87 10s linear 1 forwards; }
+  animation: movehome-87 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-8 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-88 10s linear 1 forwards; }
+  animation: movehome-88 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-9 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-89 10s linear 1 forwards; }
+  animation: movehome-89 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .eighth-letter-10 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-810 10s linear 1 forwards; }
+  animation: movehome-810 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-81 {
   0% {
@@ -884,42 +884,42 @@ body, html {
 .ninth-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-91 10s linear 1 forwards; }
+  animation: movehome-91 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .ninth-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-92 10s linear 1 forwards; }
+  animation: movehome-92 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .ninth-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-93 10s linear 1 forwards; }
+  animation: movehome-93 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .ninth-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-94 10s linear 1 forwards; }
+  animation: movehome-94 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .ninth-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-95 10s linear 1 forwards; }
+  animation: movehome-95 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .ninth-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-96 10s linear 1 forwards; }
+  animation: movehome-96 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .ninth-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-97 10s linear 1 forwards; }
+  animation: movehome-97 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .ninth-letter-8 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-98 10s linear 1 forwards; }
+  animation: movehome-98 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-91 {
   0% {
@@ -988,52 +988,52 @@ body, html {
 .tenth-letter-1 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-101 10s linear 1 forwards; }
+  animation: movehome-101 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-2 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-102 10s linear 1 forwards; }
+  animation: movehome-102 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-3 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-103 10s linear 1 forwards; }
+  animation: movehome-103 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-4 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-104 10s linear 1 forwards; }
+  animation: movehome-104 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-5 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-105 10s linear 1 forwards; }
+  animation: movehome-105 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-6 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-106 10s linear 1 forwards; }
+  animation: movehome-106 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-7 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-107 10s linear 1 forwards; }
+  animation: movehome-107 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-8 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-108 10s linear 1 forwards; }
+  animation: movehome-108 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-9 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-109 10s linear 1 forwards; }
+  animation: movehome-109 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 .tenth-letter-10 {
   fill: #0F94b7;
   position: absolute;
-  animation: movehome-1010 10s linear 1 forwards; }
+  animation: movehome-1010 2.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s 1 forwards; }
 
 @keyframes movehome-101 {
   0% {
