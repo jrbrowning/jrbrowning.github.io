@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+  html {
+    font-size: 0.8rem; }
+    @media screen and (min-width: 40rem) {
+      html {
+        font-size: calc(0.8rem + 1.2 * ((100vw - 40rem) / 40)); } }
+    @media screen and (min-width: 80rem) {
+      html {
+        font-size: 2rem; } }
+
+body {
+  width: 80%;
+  margin: 0 auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0.5rem 0;
+  line-height: 1.5; }
+
+body {
+  color: #382513;
+  background-color: #D8CAA8; }
