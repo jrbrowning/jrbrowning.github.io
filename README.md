@@ -1,8 +1,9 @@
-This page is currently based on the Start Bootstrap theme.   
+This page is built using the Start Bootstrap theme.   
 
-I am personalizing it to become the homepage for my web business (craftcoded).   
+I am in the process of personalizaing it to make it my own.   
 
-But until that time, giving credit where credit! 
+But until that time, giving credit where credit is due! 
+
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
