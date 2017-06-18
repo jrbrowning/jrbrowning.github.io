@@ -1,8 +1,6 @@
-This page is built using the Start Bootstrap theme.   
+This site is built using the Start Bootstrap theme.   
 
-I am in the process of personalizaing it to make it my own.   
-
-But until that time, giving credit where credit is due! 
+I'm using it as a placeholder until mid-july when I replace it with a custom version of my own.  
 
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
