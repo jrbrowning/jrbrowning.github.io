@@ -46,13 +46,13 @@ gulp.task('sass', function() {
           Browserslist: ["last 25 versions"],
         })
       )
-      // .pipe(gulp.dest("./dist/css"))
+      // .pipe(gulp.dest("./docs/css"))
       //   .pipe(cleanCSS({ compatibility: "ie8" }))
     //   .pipe(sourcemaps.write("."))
       .pipe(rename({ suffix: ".min" }))
     //   .pipe(gulp.dest("src/css"))
       .pipe(cssnano())
-      .pipe(gulp.dest("./dist/css"))
+      .pipe(gulp.dest("./docs/css"))
       //        .pipe(notify({ message: 'Styles task complete'}))
       .pipe(browserSync.stream())
   );
@@ -72,7 +72,7 @@ gulp.task("collateral", function () {
         }),
       ])
     )
-    .pipe(gulp.dest("dist/assets"))
+    .pipe(gulp.dest("docs/assets"))
     .pipe(browserSync.stream());
 });
 
@@ -80,7 +80,7 @@ gulp.task("collateral", function () {
 gulp.task('html', function() {
     // return gulp.src(['src/index.html', 'src/privacy.html', 'src/faq.html', 'src/terms.html'])
     return gulp.src(['src/index.html'])
-        .pipe(gulp.dest("dist/"))
+        .pipe(gulp.dest("docs/"))
         .pipe(browserSync.stream());
 });
 
@@ -88,7 +88,7 @@ gulp.task('html', function() {
 gulp.task("favicon", function () {
   return gulp
     .src(["src/favicon.ico"])
-    .pipe(gulp.dest("dist/"))
+    .pipe(gulp.dest("docs/"))
     .pipe(browserSync.stream());
 });
 
@@ -96,7 +96,7 @@ gulp.task("favicon", function () {
 gulp.task("svg", function () {
   return gulp
     .src(["src/assets/*.svg"])
-    .pipe(gulp.dest("dist/assets"))
+    .pipe(gulp.dest("docs/assets"))
     .pipe(browserSync.stream());
 });
 
@@ -109,18 +109,18 @@ gulp.task('js', function () {
         .pipe(uglify())
             .pipe(header(banner, { pkg: pkg }))
         .pipe(concat('app.min.js'))
-        .pipe(gulp.dest("./dist/js"))
+        .pipe(gulp.dest("./docs/js"))
 //        .pipe(gulp.dest("src/js"))
         .pipe(browserSync.stream());
 });
 
 gulp.task("clean", function () {
   return del([
-    "./dist/assets",
-    "./dist/css",
-    "./dist/js",
-    "./dist/index.html",
-    "./dist/favicon.ico",
+    "./docs/assets",
+    "./docs/css",
+    "./docs/js",
+    "./docs/index.html",
+    "./docs/favicon.ico",
   ]);
 });
 
@@ -131,7 +131,7 @@ gulp.task("serve", gulp.series(("html", "collateral", "svg", "favicon", "sass", 
   browserSync.init({
     //		Will not attempt to determine your network status, assumes you're OFFLINE
     online: false,
-    server: "./dist",
+    server: "./docs",
   });
 
   gulp.watch(["src/scss/*.scss"], gulp.parallel("sass"));

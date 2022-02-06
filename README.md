@@ -10,7 +10,7 @@
   "I just want to write some scss or modern js and see what happens.   Don't make me think."
   ```
 
-* Gulp Build to compile scss and js (ES6+) source to /dist directory for deploy.    Good seperation of development/production code via deploy.sh script...(shell scripts are the future)   
+* Gulp Build to compile scss and js (ES6+) source to /docs directory for deploy.    Good seperation of development/production code via deploy.sh script...(shell scripts are the future)   
 
 * A whole bunch of absolutely positioned elements are going to be in these first few versions.   I think this mean i'm supposed to learn css grid.
 
