@@ -1,7 +1,7 @@
 {
   "title": "CraftCoded public site",
   "name": "craftoded-home",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "public source for craftcoded projects",
   "engines": {
     "node": "^12.20.1",
