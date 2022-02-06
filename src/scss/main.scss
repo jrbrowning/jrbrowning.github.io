@@ -1,0 +1,193 @@
+// Code snippets ... probably cut-pasted from an awesome css-tricks articles...
+
+$baseline: 1.5rem;
+
+$minScreen: 35rem;
+$maxScreen: 125rem;
+
+$minFont: 4rem;
+$maxFont: 6rem;
+
+$minHeight: 300px;
+
+// 1rem = 16px
+$h1: $minFont;
+$h2: 1.5rem;
+$h3: 1.25rem;
+$h4: 1rem;
+$h5: .875rem;
+
+$font-family-base: 'Permanent Marker', cursive,  Arial, Helvetica;
+$h1-color: #5489A4;
+$icon-color: #209ED4;
+// $h1-color: #2A4552;
+// $h1-color: #2A3152;
+
+//     fluid-type(font-size, $minScreen, $maxScreen, $minFont, $maxFont);
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+	& {
+		// default to minimum value
+		@each $property in $properties {
+			#{$property}: $min-value;
+		}
+
+		// start with min-value.   Never go below for media query
+		// 
+		@media screen and (min-width: $min-vw) and (min-height: $minHeight) {
+			@each $property in $properties {
+				#{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+			}
+		}
+
+		@media screen and (min-width: $max-vw) and (min-height: $minHeight){
+			@each $property in $properties {
+				#{$property}: $max-value;
+			}
+		}
+	}
+}
+
+@function strip-unit($value) {
+	@return calc($value / ($value * 0 + 1rem));
+}
+
+*{
+	box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+	text-rendering: optimizeLegibility;
+}
+
+p{	
+	line-height: $baseline;
+	margin-bottom: $baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-weight: 700;
+	margin-bottom: $baseline;
+}
+
+h1 {
+	@include fluid-type(font-size, $minScreen, $maxScreen, $minFont, $maxFont);
+	line-height: $h1;
+	margin-top: calc((#{$baseline} - #{$h1}) + #{$baseline});
+	color: $h1-color;
+}
+
+h2 {
+	font-size: $h2;
+	line-height: $h2;
+	margin-top: calc((#{$baseline} - #{$h2}) + #{$baseline}*2);
+}
+
+h3 {
+	font-size: $h3;
+	line-height: $h3;
+	margin-top: calc((#{$baseline} - #{$h3}) + #{$baseline}*2);
+}
+
+h4 {
+	font-size: $h4;
+	line-height: $h4;
+	margin-top: calc((#{$baseline} - #{$h4}) + #{$baseline}*2);
+}
+
+h5 {
+	font-size: $h5;
+	line-height: $h5;
+	margin-top: calc((#{$baseline} - #{$h5}) + #{$baseline}*2);
+}
+
+body {
+  font-size: 100%;
+  font-family: $font-family-base;
+}
+
+body, html {
+	  /* remove margins and scroll bars */
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+	background-size: 100% 100vh;
+	background-image: url(/assets/background-sq.svg);
+  background-color: black;
+	// background-color: linear-gradient(#e66465, #9198e5);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.scaling-svg-container {
+	position: relative; 
+  height: 100vh; 
+  width: 100wh; 
+}
+
+.scaling-svg {
+  position: absolute; 
+  height: 80%; 
+  width: 100%; 
+  left: 0; 
+  top: 0;
+}
+
+.scaling-header {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	position: absolute; 
+	height: 20%; 
+	width: 100%; 
+	left: 0; 
+	bottom: 0;
+}
+
+.scaling-sharing-links {
+	display: flex;
+	align-content: start;
+	justify-content: start;
+	align-items: center;
+	position: absolute; 
+	height: 2rem; 
+	width: 100%; 
+	left: 0; 
+	top: 0;	
+}
+
+/* Style all font awesome icons */
+a.fa {
+	font-size: 1.5rem;
+}
+
+.fa {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 2rem;
+  text-align: center;
+  text-decoration: none;
+	z-index:10;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter, .fa-github, .fa-linkedin {
+  color: $icon-color;
+}
