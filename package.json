@@ -27,7 +27,7 @@
   ],
   "author": "Jeff Browning <jeff@craftcoded.com>",
   "homepage": "https://github.com/jrbrowning/jrbrowning.github.io",
-  "license": "MIT",
+  "license": "Apache 2",
   "repository": {
     "type": "git",
     "url": "https://github.com/jrbrowning/"
