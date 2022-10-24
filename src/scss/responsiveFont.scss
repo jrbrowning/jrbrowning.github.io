@@ -1,0 +1,77 @@
+// Change scale - adding text on master branch
+
+$mod_1: 1.067;
+$mod_2: 1.333;
+
+$minScreen: 40rem;
+$maxScreen: 80rem;
+$minFont: 0.8rem;
+$maxFont: 2rem;
+
+// Fluid Type Mixin
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+ }
+
+// Calculate Modular Scale
+
+$h1-min: $mod_1*$mod_1*$mod_1*$mod_1 * 1rem;
+$h1-max: $mod_2*$mod_2*$mod_2*$mod_2 * 1rem;
+
+$h2-min: $mod_1*$mod_1*$mod_1 * 1rem;
+$h2-max: $mod_2*$mod_2*$mod_2 * 1rem;
+
+$h3-min: $mod_1*$mod_1 * 1rem;
+$h3-max: $mod_2*$mod_2 * 1rem;
+
+// Apply fluid type mixin
+html {
+	box-sizing: border-box;
+	height: 100%;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	@include fluid-type($minScreen, $maxScreen, $minFont, $maxFont);
+}
+
+	h1{ 
+//  @include font-calc($)
+    
+    //		@include fluid-type(37.5rem, 80rem, $h1-min, $h1-max);
+	}
+	
+	h2{ 
+//		@include fluid-type(37.5rem, 80rem, $h2-min, $h2-max);
+	}
+	
+	h3{ 
+//		@include fluid-type(37.5rem, 80rem, $h3-min, $h3-max);
+	}
+		
+// Not related to Demo
+
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 { padding: 0; margin: 0.5rem 0; line-height: 1.5;}
+
+
+body {
+  color: #382513;
+  background-color: #D8CAA8;
+}
