@@ -1,22 +1,60 @@
-<!-- index.html -->
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic Meta -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive GitHub analytics dashboard for jrbrownig. Built with React, Vite, and TailwindCSS."
+    />
+    <meta name="author" content="Jeff Browning" />
+    <meta name="robots" content="index,follow" />
 
-    <!-- Preload font stylesheet early -->
-    <!-- <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap"
-    /> -->
+    <!-- Title -->
+    <title>Developer Insights | &lt;JRBrowning /&gt;</title>
 
-    <!-- Apply stylesheet immediately (render-blocking, prevents FOUC) -->
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="GitHub Developer Insights | <JRBrowning />"
+    />
+    <meta
+      property="og:description"
+      content="Visualize your GitHub contribution history with analytics, charts, and developer-friendly insights."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jrbrowning.github.io/" />
+    <meta
+      property="og:image"
+      content="https://jrbrowning.github.io/og-image.png"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="GitHub Developer Insights | <JRBrowning />"
+    />
+    <meta
+      name="twitter:description"
+      content="Visual GitHub analytics for developers, powered by Vite and React."
+    />
+    <meta
+      name="twitter:image"
+      content="https://jrbrowning.github.io/og-image.png"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <!-- Fonts (render-blocking for FOUC prevention) -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap"
     />
+
+    <!-- Inline Base Styles -->
     <style>
       html,
       body {
@@ -26,8 +64,8 @@
       }
     </style>
 
+    <!-- External Libraries -->
     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-    <title>Proto Static</title>
   </head>
   <body class="bg-background text-foreground">
     <div id="root"></div>

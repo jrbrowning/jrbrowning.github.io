@@ -43,7 +43,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "commit": "cz",
-    "start": "vite"
+    "start": "vite",
+    "gh-page-preview": "serve docs --single"
   },
   "author": "Jeff Browning <jeff@craftcoded.com>",
   "license": "Apache-2.0",
@@ -87,6 +88,7 @@
     "postcss": "^8.5.6",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.13",
+    "serve": "^14.2.4",
     "tailwind-merge": "^3.3.1",
     "tailwind-variants": "^1.0.0",
     "tailwindcss": "^4.1.11",

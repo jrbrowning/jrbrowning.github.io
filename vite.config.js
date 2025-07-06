@@ -4,7 +4,7 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/jrbrowning.github.io/",
+  base: "/",
   root: ".",
   publicDir: "public",
   build: {
