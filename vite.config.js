@@ -4,10 +4,11 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/jrbrowning.github.io/",
   root: ".",
   publicDir: "public",
   build: {
-    outDir: "dist",
+    outDir: "docs", // GitHub Pages expects /docs for deployment
     assetsDir: "assets",
   },
   server: {
