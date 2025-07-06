@@ -1,0 +1,178 @@
+/* Chart Color Palettes - Complete Summary with HSLA Values */
+:root {
+  /* 
+     * NATURE PALETTE
+     */
+  /* Light mode */
+  --nature-light-1: hsla(120, 40%, 55%, 1);
+  --nature-light-2: hsla(160, 65%, 45%, 1);
+  --nature-light-3: hsla(85, 55%, 65%, 1);
+  --nature-light-4: hsla(45, 85%, 65%, 1);
+  --nature-light-5: hsla(30, 90%, 65%, 1);
+
+  /* Dark mode */
+  --nature-dark-1: hsla(120, 30%, 35%, 1);
+  --nature-dark-2: hsla(160, 45%, 35%, 1);
+  --nature-dark-3: hsla(85, 35%, 45%, 1);
+  --nature-dark-4: hsla(45, 65%, 55%, 1);
+  --nature-dark-5: hsla(30, 70%, 55%, 1);
+
+  /* 
+     * OCEAN PALETTE
+     */
+  /* Light mode */
+  --ocean-light-1: hsla(195, 85%, 55%, 1);
+  --ocean-light-2: hsla(215, 65%, 60%, 1);
+  --ocean-light-3: hsla(175, 75%, 45%, 1);
+  --ocean-light-4: hsla(235, 55%, 70%, 1);
+  --ocean-light-5: hsla(155, 45%, 50%, 1);
+
+  /* Dark mode */
+  --ocean-dark-1: hsla(195, 75%, 45%, 1);
+  --ocean-dark-2: hsla(215, 55%, 50%, 1);
+  --ocean-dark-3: hsla(175, 65%, 40%, 1);
+  --ocean-dark-4: hsla(235, 45%, 60%, 1);
+  --ocean-dark-5: hsla(155, 35%, 45%, 1);
+
+  /* 
+     * BERRY PALETTE
+     */
+  /* Light mode */
+  --berry-light-1: hsla(340, 80%, 55%, 1);
+  --berry-light-2: hsla(295, 70%, 60%, 1);
+  --berry-light-3: hsla(355, 65%, 65%, 1);
+  --berry-light-4: hsla(325, 55%, 50%, 1);
+  --berry-light-5: hsla(280, 60%, 70%, 1);
+
+  /* Dark mode */
+  --berry-dark-1: hsla(340, 70%, 45%, 1);
+  --berry-dark-2: hsla(295, 60%, 50%, 1);
+  --berry-dark-3: hsla(355, 55%, 55%, 1);
+  --berry-dark-4: hsla(325, 45%, 40%, 1);
+  --berry-dark-5: hsla(280, 50%, 60%, 1);
+
+  /* 
+     * SUNSET PALETTE
+     */
+  /* Light mode */
+  --sunset-light-1: hsla(25, 90%, 55%, 1);
+  --sunset-light-2: hsla(45, 95%, 60%, 1);
+  --sunset-light-3: hsla(10, 85%, 65%, 1);
+  --sunset-light-4: hsla(0, 80%, 70%, 1);
+  --sunset-light-5: hsla(65, 75%, 55%, 1);
+
+  /* Dark mode */
+  --sunset-dark-1: hsla(25, 80%, 45%, 1);
+  --sunset-dark-2: hsla(45, 85%, 50%, 1);
+  --sunset-dark-3: hsla(10, 75%, 55%, 1);
+  --sunset-dark-4: hsla(0, 70%, 60%, 1);
+  --sunset-dark-5: hsla(65, 65%, 45%, 1);
+
+  /* 
+     * METRO PALETTE
+     */
+  /* Light mode */
+  --metro-light-1: hsla(210, 80%, 55%, 1);
+  --metro-light-2: hsla(350, 70%, 55%, 1);
+  --metro-light-3: hsla(145, 65%, 50%, 1);
+  --metro-light-4: hsla(50, 90%, 60%, 1);
+  --metro-light-5: hsla(275, 60%, 65%, 1);
+
+  /* Dark mode */
+  --metro-dark-1: hsla(210, 70%, 45%, 1);
+  --metro-dark-2: hsla(350, 60%, 45%, 1);
+  --metro-dark-3: hsla(145, 55%, 40%, 1);
+  --metro-dark-4: hsla(50, 80%, 50%, 1);
+  --metro-dark-5: hsla(275, 50%, 55%, 1);
+}
+
+/* Light theme defaults to Nature palette */
+.light-theme {
+  --chart-color-1: var(--nature-light-1);
+  --chart-color-2: var(--nature-light-2);
+  --chart-color-3: var(--nature-light-3);
+  --chart-color-4: var(--nature-light-4);
+  --chart-color-5: var(--nature-light-5);
+}
+
+/* Dark theme defaults to Nature palette */
+.dark-theme {
+  --chart-color-1: var(--nature-dark-1);
+  --chart-color-2: var(--nature-dark-2);
+  --chart-color-3: var(--nature-dark-3);
+  --chart-color-4: var(--nature-dark-4);
+  --chart-color-5: var(--nature-dark-5);
+}
+
+/* 
+   * ALTERNATE PALETTE CLASSES
+   * Use these classes to switch to a different palette
+   */
+
+/* Ocean palette */
+.light-theme.ocean-palette {
+  --chart-color-1: var(--ocean-light-1);
+  --chart-color-2: var(--ocean-light-2);
+  --chart-color-3: var(--ocean-light-3);
+  --chart-color-4: var(--ocean-light-4);
+  --chart-color-5: var(--ocean-light-5);
+}
+
+.dark-theme.ocean-palette {
+  --chart-color-1: var(--ocean-dark-1);
+  --chart-color-2: var(--ocean-dark-2);
+  --chart-color-3: var(--ocean-dark-3);
+  --chart-color-4: var(--ocean-dark-4);
+  --chart-color-5: var(--ocean-dark-5);
+}
+
+/* Berry palette */
+.light-theme.berry-palette {
+  --chart-color-1: var(--berry-light-1);
+  --chart-color-2: var(--berry-light-2);
+  --chart-color-3: var(--berry-light-3);
+  --chart-color-4: var(--berry-light-4);
+  --chart-color-5: var(--berry-light-5);
+}
+
+.dark-theme.berry-palette {
+  --chart-color-1: var(--berry-dark-1);
+  --chart-color-2: var(--berry-dark-2);
+  --chart-color-3: var(--berry-dark-3);
+  --chart-color-4: var(--berry-dark-4);
+  --chart-color-5: var(--berry-dark-5);
+}
+
+/* Sunset palette */
+.light-theme.sunset-palette {
+  --chart-color-1: var(--sunset-light-1);
+  --chart-color-2: var(--sunset-light-2);
+  --chart-color-3: var(--sunset-light-3);
+  --chart-color-4: var(--sunset-light-4);
+  --chart-color-5: var(--sunset-light-5);
+}
+
+.dark-theme.sunset-palette {
+  --chart-color-1: var(--sunset-dark-1);
+  --chart-color-2: var(--sunset-dark-2);
+  --chart-color-3: var(--sunset-dark-3);
+  --chart-color-4: var(--sunset-dark-4);
+  --chart-color-5: var(--sunset-dark-5);
+}
+
+/* Metro palette */
+.light-theme.metro-palette {
+  --chart-color-1: var(--metro-light-1);
+  --chart-color-2: var(--metro-light-2);
+  --chart-color-3: var(--metro-light-3);
+  --chart-color-4: var(--metro-light-4);
+  --chart-color-5: var(--metro-light-5);
+}
+
+.dark-theme.metro-palette {
+  --chart-color-1: var(--metro-dark-1);
+  --chart-color-2: var(--metro-dark-2);
+  --chart-color-3: var(--metro-dark-3);
+  --chart-color-4: var(--metro-dark-4);
+  --chart-color-5: var(--metro-dark-5);
+}

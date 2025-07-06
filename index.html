@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Preload font stylesheet early -->
+    <!-- <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap"
+    /> -->
+
+    <!-- Apply stylesheet immediately (render-blocking, prevents FOUC) -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap"
+    />
+    <style>
+      html,
+      body {
+        font-family: "Figtree", ui-sans-serif, system-ui, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <title>Proto Static</title>
+  </head>
+  <body class="bg-background text-foreground">
+    <div id="root"></div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>

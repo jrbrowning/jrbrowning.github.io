@@ -1,0 +1,43 @@
+/* NOTE:  Order is important, as each will override the base */
+@import "tailwindcss";
+@import "./variables.css";
+
+/* Base Layer */
+@layer base {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    touch-action: manipulation;
+    background: hsl(var(--background));
+    background-image: radial-gradient(
+      circle at 1px 1px,
+      hsl(var(--muted-foreground)) 1px,
+      transparent 0
+    );
+    background-size: 20px 20px;
+    font-family: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  /* Turns out there is a style hardcoded in plotly.   style variable.   Can't override in JS, so here we are !important.   */
+  .js-plotly-plot text {
+    fill: hsl(var(--foreground)) !important;
+  }
+
+  /* Tab visibility logic */
+  .tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+
+  .visually-hidden {
+    display: none;
+  }
+}
