@@ -1,65 +1,114 @@
 {
-  "title": "CraftCoded public site",
-  "name": "craftoded-home",
-  "version": "2.0.2",
-  "description": "public source for craftcoded projects",
-  "engines": {
-    "node": "^12.20.1",
-    "npm": "^6.14.10"
-  },
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "js": "babel src/js/parallax.js --out-file src/dist/js/parallax.js",
-    "start": "./node_modules/.bin/gulp serve",
-    "clean": "./node_modules/.bin/gulp clean",
-    "build": "./node_modules/.bin/gulp build",
-    "goproj": "npm i; npm run start;"
-  },
+  "name": "jrbrowning.github.io",
+  "version": "1.0.0",
+  "description": "A modern React dashboard for visualizing GitHub contributions with analytics (charts/sankey) and developer-friendly tools",
+  "main": "main.tsx",
+  "homepage": "https://jrbrowning.github.io",
+  "private": true,
+  "type": "module",
   "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template",
-    "CraftCoded"
+    "github",
+    "contributions",
+    "dashboard",
+    "analytics",
+    "react",
+    "vite",
+    "tailwindcss",
+    "typescript",
+    "developer-tools"
   ],
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.md": "prettier --write"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "clean": "rm -rf node_modules; rm -rf package-lock.json",
+    "rebuild": "npm run clean && npm install",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "commit": "cz",
+    "gh-page-build": "npm run build",
+    "gh-page-preview": "serve docs --single"
+  },
   "author": "Jeff Browning <jeff@craftcoded.com>",
-  "homepage": "https://github.com/jrbrowning/jrbrowning.github.io",
-  "license": "Apache 2",
+  "license": "MIT",
+  "engines": {
+    "node": "20.19.0",
+    "npm": ">=8.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jrbrowning/"
+    "url": "https://github.com/jrbrowning/jrbrowning.github.io"
   },
-  "dependencies": {
-    "bootstrap": "^4.6",
-    "font-awesome": "4.7.0",
-    "jquery": "^3.2.1",
-    "jquery.easing": "^1.4.1",
-    "tether": "^1.4.0"
+  "bugs": {
+    "url": "https://github.com/jrbrowning/jrbrowning.github.io/issues"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "browser-sync": ">=2.18.13",
-    "del": "^3.0.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-babel": "^7.0.0",
-    "gulp-clean-css": "3.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-header": "1.8.8",
-    "gulp-imagemin": "^3.4.0",
-    "gulp-jscs": "^4.1.0",
-    "gulp-jshint": "^2.1.0",
-    "gulp-notify": "^3.0.0",
-    "gulp-rename": ">=1.2.2",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": ">=3.0.0",
-    "jshint": "^2.13.1",
-    "sass": "^1.49.0"
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.10",
+    "@types/plotly.js": "^3.0.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/parser": "^8.35.1",
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.21",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "dotenv": "^17.0.1",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "gh-pages": "^6.2.0",
+    "gsap": "^3.13.0",
+    "html-validate": "^9.7.1",
+    "husky": "^9.1.7",
+    "jest": "^30.0.3",
+    "nanoid": "^5.1.5",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "serve": "^14.2.4",
+    "tailwind-merge": "^3.3.1",
+    "tailwind-variants": "^1.0.0",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.15",
+    "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tabs": "^1.1.12",
+    "@tailwindcss/vite": "^4.1.11",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.525.0",
+    "plotly.js-dist-min": "^3.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.0.2"
   }
 }
