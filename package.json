@@ -30,11 +30,9 @@
     }
   },
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist",
-    "predeploy": "npm run build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
     "prepare": "husky install",
@@ -43,11 +41,11 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "commit": "cz",
-    "start": "vite",
+    "gh-page-build": "npm run build",
     "gh-page-preview": "serve docs --single"
   },
   "author": "Jeff Browning <jeff@craftcoded.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "engines": {
     "node": "20.19.0",
     "npm": ">=8.0.0"
