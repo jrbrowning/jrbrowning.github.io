@@ -260,7 +260,7 @@
     },
     {
       "year": 2021,
-      "commits": 860,
+      "commits": 952,
       "prs": 340,
       "reviews": 25,
       "repo_count": 7
@@ -274,24 +274,24 @@
     },
     {
       "year": 2023,
-      "commits": 283,
+      "commits": 298,
       "prs": 93,
       "reviews": 2,
       "repo_count": 14
     },
     {
       "year": 2024,
-      "commits": 1278,
+      "commits": 1280,
       "prs": 177,
       "reviews": 1,
       "repo_count": 13
     },
     {
       "year": 2025,
-      "commits": 575,
-      "prs": 119,
+      "commits": 706,
+      "prs": 165,
       "reviews": 1,
-      "repo_count": 8
+      "repo_count": 13
     }
   ],
   "repo_language_by_year": {
